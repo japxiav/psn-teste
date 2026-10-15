@@ -3,6 +3,7 @@ name: Gaming Archive security regression
 on:
   push:
     branches:
+      - main
       - audit/gaming-archive-regression-ci
   pull_request:
     paths:
